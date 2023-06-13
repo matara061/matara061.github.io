@@ -1,13 +1,74 @@
 h1{
     color: aquamarine;
-    text-align: center;
-    border-bottom: 1px solid #333;
+    text-align: left;
+    border-bottom: 1px solid #333333;
+}
+
+h2{
+    color: white;
+    text-align: left;
+    margin-top: 0%;
+
+}
+
+p#descricao{
+    color: white;
+    text-align: left;
+    margin-top: 0%;
 }
 
 body{
-    background-color: black;
+    background-color: rgb(68, 67, 67);
+}
+
+.body{
+    border: 2px solid white;
+    width: 1200px;
+    height: 900px;
+    padding: 10px;
+    margin: auto;
 }
 
 p{
     color: white;
+}
+
+.divBarraTop{
+    padding: 10px;
+    margin: auto;
+    width: 1200px;
+    border-bottom: 5px solid white;
+}
+
+.container{
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid white;
+}
+
+div#jogo1{
+    border: 1px solid wheat;
+    width: 500px;
+    height: 200px;
+}
+
+div#jogo2{
+    border: 1px solid wheat;
+    margin-top: 0%;
+    margin-right: 10%;
+    width: 500px;
+    height: 200px;
+}
+
+div#jogo3{
+    border: 1px solid wheat;
+    width: 500px;
+    height: 200px;
+}
+
+div#jogo4{
+    border: 1px solid wheat;
+    width: 500px;
+    height: 200px;
 }
