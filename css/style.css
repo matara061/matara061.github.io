@@ -2,12 +2,26 @@ h1{
     color: aquamarine;
     text-align: left;
     border-bottom: 1px solid #333333;
+    width: 500px;
 }
 
 h2{
     color: white;
     text-align: left;
     margin-top: 0%;
+
+}
+
+h4{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.divTitulo{
+    border: 2px solid white;
+    width: 1000px;
+    display: inline-block;
 
 }
 
@@ -22,7 +36,7 @@ body{
 }
 
 .body{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 1200px;
     height: 900px;
     padding: 10px;
@@ -40,35 +54,43 @@ p{
     border-bottom: 5px solid white;
 }
 
+
+.jogo{
+    /* border: 1px solid wheat; */
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}
+
+.tituloJogo{
+    /* border: 1px solid wheat; */
+    width: 500px;
+    height: 20px;
+}
+
 .container{
-    width: 1200px;
-    height: 200px;
+    /* border: 1px solid rgb(5, 221, 52); */
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.capaJogo{
     margin: auto;
-    border: 2px solid white;
+    height: 200px;
+    width: 500px;
 }
 
-div#jogo1{
-    border: 1px solid wheat;
-    width: 500px;
-    height: 200px;
+.icon{
+    width: 30px;
+    height: 30px;
 }
 
-div#jogo2{
-    border: 1px solid wheat;
-    margin-top: 0%;
-    margin-right: 10%;
-    width: 500px;
-    height: 200px;
+.iconBotao{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
 }
 
-div#jogo3{
-    border: 1px solid wheat;
-    width: 500px;
-    height: 200px;
-}
-
-div#jogo4{
-    border: 1px solid wheat;
-    width: 500px;
-    height: 200px;
-}
