@@ -14,22 +14,10 @@
     transform: scale(1.2);
 }
 
-.iconBotao{
-    /* border: 1px solid white; */
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
+.capa{
+    transition: transform 0.3s;
 }
 
-.iconBox{
-    float: right;
-    margin-top: 10px;
-    margin-right: 10px;
-    width: 50%;
-}
-
-.jogosBox{
-    display: inline-block;
+.capa:hover{
+    transform: scale(1.3);
 }
