@@ -1,111 +1,11 @@
-h1{
-    color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left;
-    /* border-bottom: 1px solid #333333; */
-    width: 800px;
-    font-size: 300%;
-}
-
-h2{
-    color: rgb(0, 0, 0);
-    text-align: left;
-    margin-top: 0%;
-
-}
-h3{
-    color: black;
-    margin-top: 0%;
-}
-
-h4{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size:150%;
-    margin-top: 0%;
-}
-
-.divTitulo{
-    /* border: 2px solid rgb(0, 0, 0); */
-    width: 1200px;
-    display: inline-block;
-
-}
-
-p#descricao{
-    color: rgb(0, 0, 0);
-    text-align: left;
-    font-size: 110%;
-    margin-top: 0%;
-}
-
-.body{
-    border-bottom: 5px solid black;
-    /* background-color: gray; */
-    width: 1200px;
-    height: 900px;
-    padding: 10px;
-    margin: auto;
-}
-
-body{
-    background-color: rgb(220,220,220);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-p{
-    color: white;
-}
-
-.baixo{
-    color: black;
-}
-
-.divBarraTop{
-    padding: 10px;
-    margin: auto;
-    width: 1200px;
-    border-bottom: 5px solid rgb(0, 0, 0);
-}
 
 
-.jogo{
-    /* border: 1px solid wheat; */
-    width: 500px;
-    height: 200px;
-    display: inline-block;
-}
 
-.tituloJogo{
-    /* border: 1px solid wheat; */
-    width: 500px;
-    height: 20px;
-}
-
-.container{
-    /* border: 1px solid rgb(5, 221, 52); */
-    width: 500px;
-    height: 300px;
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-.capaJogo{
-    margin: auto;
-    height: 200px;
-    width: 500px;
-    border-radius: 50px;
-    transition: transform 0.3s;
-}
-
-.capaJogo:hover{
-    transform: scale(1.1);
-}
 
 .icon{
     width: 30px;
     height: 30px;
+    float: right;
     transition: transform 0.3s;
 }
 
@@ -116,24 +16,19 @@ p{
 .iconBotao{
     /* border: 1px solid white; */
     float: right;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 10px;
     width: 30px;
     height: 30px;
 }
 
-.final{
-    /* border: 2px solid rgb(0, 0, 0); */
-    /* background-color: white; */
-    width: 1200px;
-    height: 150px;
-    padding: 10px;
-    margin: auto;
+.iconBox{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 50%;
 }
 
-.box{
-    /* border: 2px solid rgb(0, 0, 0); */
-    width: 400px;
-    height: 150px;
-    float: right;
+.jogosBox{
+    display: inline-block;
 }
