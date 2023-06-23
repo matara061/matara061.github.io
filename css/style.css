@@ -3,9 +3,10 @@
 
 
 .icon{
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 40px;
     float: right;
+    margin-right: 20px;
     transition: transform 0.3s;
 }
 
